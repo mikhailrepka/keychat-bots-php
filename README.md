@@ -4,18 +4,17 @@ Small PHP 8.1+ SDK for Key Chat Bot Runtime API and signed webhooks.
 
 ## Install
 
-After the first Packagist release:
+The package is published on [Packagist](https://packagist.org/packages/keychat/bots):
 
 ```bash
 composer require keychat/bots
 ```
 
-Until the package is registered in Packagist, install the current GitHub branch directly:
+Run the command inside an existing Composer project. For a new project, create `composer.json` first:
 
 ```bash
 composer init --name=your-name/your-bot --no-interaction
-composer config repositories.keychat-bots vcs https://github.com/mikhailrepka/keychat-bots-php.git
-composer require keychat/bots:dev-main
+composer require keychat/bots
 ```
 
 Local development:
@@ -91,4 +90,4 @@ composer docs
 php -S 127.0.0.1:8000 -t docs
 ```
 
-Platform documentation: <https://chat.wokey.pro/docs/bots/>. Default API endpoint: `https://api-chat.wokey.pro`; pass the second constructor argument for local tests.
+Full bot platform documentation: <https://chat.wokey.pro/docs/bots/>. Default API endpoint: `https://api-chat.wokey.pro`; pass the second constructor argument for local tests.
