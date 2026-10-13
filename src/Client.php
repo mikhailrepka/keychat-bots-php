@@ -5,7 +5,7 @@ namespace KeyChat\Bots;
 
 final class Client
 {
-    public const DEFAULT_BASE_URL = 'https://api-chat.wokey.pro';
+    public const DEFAULT_BASE_URL = 'https://chat.wokey.pro/_keychat';
 
     public function __construct(
         private readonly string $token,

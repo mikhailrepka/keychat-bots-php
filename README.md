@@ -90,4 +90,4 @@ composer docs
 php -S 127.0.0.1:8000 -t docs
 ```
 
-Full bot platform documentation: <https://chat.wokey.pro/docs/bots/>. Default API endpoint: `https://api-chat.wokey.pro`; pass the second constructor argument for local tests.
+Full bot platform documentation: <https://chat.wokey.pro/docs/bots/>. Default API endpoint: `https://chat.wokey.pro/_keychat`; pass the second constructor argument for local tests.
