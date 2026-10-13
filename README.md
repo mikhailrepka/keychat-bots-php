@@ -10,6 +10,14 @@ After the first Packagist release:
 composer require keychat/bots
 ```
 
+Until the package is registered in Packagist, install the current GitHub branch directly:
+
+```bash
+composer init --name=your-name/your-bot --no-interaction
+composer config repositories.keychat-bots vcs https://github.com/mikhailrepka/keychat-bots-php.git
+composer require keychat/bots:dev-main
+```
+
 Local development:
 
 ```bash
